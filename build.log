@@ -1,0 +1,43 @@
+  GEN     /home/ipsis/kernel-3.10/out/Makefile
+scripts/kconfig/conf --silentoldconfig Kconfig
+  Using /home/ipsis/kernel-3.10 as source for kernel
+  GEN     /home/ipsis/kernel-3.10/out/Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[2]: «include/generated/mach-types.h» не требует обновления.
+  CALL    /home/ipsis/kernel-3.10/scripts/checksyscalls.sh
+  CC      scripts/mod/devicetable-offsets.s
+  GEN     scripts/mod/devicetable-offsets.h
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTLD  scripts/mod/modpost
+  CHK     include/generated/compile.h
+  GZIP    kernel/config_data.gz
+  CHK     kernel/config_data.h
+  CC      drivers/input/touchscreen/mediatek/gslX680/mtk_gslX680_6589_6572.o
+  LD      drivers/input/touchscreen/mediatek/gslX680/built-in.o
+  LD      drivers/input/touchscreen/mediatek/built-in.o
+  LD      drivers/input/touchscreen/built-in.o
+  LD      drivers/input/built-in.o
+"CONFIG_TRUSTONIC_TEE_SUPPORT = "
+drivers/misc/mediatek/gpu/mt6572/mali/mali
+  LD      drivers/built-in.o
+  LINK    vmlinux
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm/boot/Image
+  Kernel: arch/arm/boot/Image is ready
+  XZKERN  arch/arm/boot/compressed/piggy.xzkern
+  AS      arch/arm/boot/compressed/piggy.xzkern.o
+  LD      arch/arm/boot/compressed/vmlinux
+  OBJCOPY arch/arm/boot/zImage
+  Kernel: arch/arm/boot/zImage is ready

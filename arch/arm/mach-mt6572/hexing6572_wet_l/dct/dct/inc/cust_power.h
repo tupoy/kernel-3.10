@@ -1,0 +1,6 @@
+
+#define GPIO_DVDD28_BPI     GPIO_VIO28
+#define GPIO_DVDD3_LCD     GPIO_VIO28
+#define MSDC_POWER_MC1     MSDC_VMC
+
+
